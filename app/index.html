@@ -18,6 +18,7 @@
     <link href="css/business-casual.css" rel="stylesheet">
 
     <!-- Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
@@ -53,13 +54,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#home">Home</a>
+                        <a class="page-scroll" href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -169,12 +170,27 @@
                     <div>
                         <b>Sundays:</b>
                         <br/>
-                        2:30 - 4:30pm
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                        <span>2:30pm - 4:30pm</span>
+                    </div>
+                    <br/>
+                    <h4>Contact Us</h4>
+                    <div>
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <b>0039 388 562 1386</b>
                     </div>
                 </div>
-                <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <h4>Location</h4>
+                    <h4>Membership</h4>
+                    <ul>
+                        <li><b>CBAP</b> (CONSERVATIVE BAPTIST ASSOCIATION OF THE PHILIPPINES)</li>
+                        <li><b>CCBC</b> (CANDELARIA CONSERVATIVE BAPTIST CHURCH- Candelaria,Quezon) </li>
+                        <li><b>ACEBT</b> ( ASSOSACIONE CRISTIANI EVANGELICALI BATTISTI TUSCANY</li>
+                        <li><b>UCEBI</b> ( UNIONE CRISTIANI EVANGELICALI BATTISTI ITALIANI)</li>
+                </div>
+                <div class="col-md-4">
+                    <h4>Find us at</h4>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <span>Via Antonio Rosmini 185 | Viareggio | Province of Lucca Italy</span>
                     <iframe
                       width="300"
@@ -188,7 +204,7 @@
             <hr>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <span>Copyright &copy; Your Website 2014</span>
+                    <span>Copyright &copy; Viareggio Christian Baptist Church Intl. 2017</span>
                 </div>
             </div>
         </div>
@@ -199,6 +215,10 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
